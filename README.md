@@ -1,7 +1,7 @@
-YouTube-concept- учебный проект от Glo Academy
+# YouTube-concept- учебный проект от Glo Academy
 Проект выполнил Мачкалян Давид
 
-Используемые технологии:
+## Используемые технологии:
 - HTML
 - CSS
 - Normalize.css
