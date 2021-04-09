@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
@@ -26,6 +27,11 @@
             <use xlink:href="img/icons.svg#search"></use>
           </svg>
         </button>
+      </div>
+      <div class="mobail-search">
+       <svg class="icon-search" width="19px" height="19px">
+            <use xlink:href="img/icons.svg#search"></use>
+          </svg> 
       </div>
       <div class="icons">
         <a href="#" class="icons-link">
@@ -49,6 +55,42 @@
       </a>
       <!--/.user-->
     </header>
+    <div class="mobail-sidebar">  
+            <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <svg class="icon icon-Home" width="20" height="19">
+                  <use xlink:href="img/icons.svg#Home"></use>
+                </svg>
+                <span class="nav-text">Home</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"><svg class="icon icon-Trending"
+                  width="20" height="19">
+                  <use xlink:href="img/icons.svg#Trending"></use>
+                </svg>
+                <span class="nav-text">Trending</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"><svg class="icon icon-Subscriptions"
+                  width="20" height="19">
+                  <use xlink:href="img/icons.svg#Subscriptions"></use>
+                </svg>
+                <span class="nav-text">Subscriptions</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <svg class="icon icon-Library" width="20" height="19">
+                  <use xlink:href="img/icons.svg#Library"></use>
+                </svg>
+                <span class="nav-text">Library</span>
+              </a>
+            </li>
+          </ul>
+    </div>
     <div class="container">
       <aside class="sidebar">
         <nav class="nav">
@@ -198,8 +240,370 @@
               </a>
             </li>
             </ul>
-        
       </aside>
+      <main class="content">
+      <div class="channel">
+        <a href="#" class="channel-title">
+         <img src="img/Хауди Хо.jpg" alt="Хауди Хо" class="channel-avatar">
+         <span class="channel-text">Хауди Хо</span>
+        </a>
+        <!-- Slider main container -->
+<div class="slider-buttons">
+  <div class="channel-button channel-button-prev ">
+    <svg class="icon icon-Left" width="28" height="28">
+    <use xlink:href="img/icons.svg#Left"></use>
+    </svg>
+  </div>
+  <div class=" channel-button channel-button-next">
+    <svg class="icon icon-Right" width="28" height="28">
+    <use xlink:href="img/icons.svg#Right"></use>
+    </svg>
+  </div>
+</div>
+  
+
+<div class="swiper-container channel-slider">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+<div class="video-card">
+  <div class="video-thumb">
+    <img src="img/Хауди1.jpg" alt="День глазами программиста" class="thumbmail">
+    <span class="video-duration">10:56</span>
+  </div>
+  <!-- /.video-thumb -->
+  <h3 class="video-title">ДЕНЬ ГЛАЗАМИ ПРОГРАММИСТА! | Чем занимаюсь, что кушаю, как развлекаюсь</h3>
+  <div class="video-info">
+    <span class="video-counter">
+      <span class="video-views">916k view</span>
+      <span class="video-date">17 dec 2019 </span>
+    </span>
+    <span class="video-channel">Хауди Хо</span>
+  </div>
+  <!-- /.video-info -->
+</div>
+<!-- /.video-card -->
     </div>
+    <!--/.swiper-slide  -->
+    <div class="swiper-slide"><div class="video-card">
+  <div class="video-thumb">
+    <img src="img/Хауди6.jpg" alt="Почему PHP это УЖАСНЫЙ язык программирования?" class="thumbmail">
+    <span class="video-duration">10:56</span>
+  </div>
+  <!-- /.video-thumb -->
+  <h3 class="video-title">Почему PHP это УЖАСНЫЙ язык программирования?</h3>
+  <div class="video-info">
+    <span class="video-counter">
+      <span class="video-views">262k view</span>
+      <span class="video-date">30 jun 2017 </span>
+    </span>
+    <span class="video-channel">Хауди Хо</span>
+  </div>
+  <!-- /.video-info -->
+</div>
+<!-- /.video-card --></div>
+    <div class="swiper-slide"><div class="video-card">
+  <div class="video-thumb">
+    <img src="img/Хауди2.jpg" alt=" Рум-Тур у ХАУДИ ХО! | Рабочее место программиста, комната Хауди :3" class="thumbmail">
+    <span class="video-duration">10:31</span>
+  </div>
+  <!-- /.video-thumb -->
+  <h3 class="video-title"> Рум-Тур у ХАУДИ ХО! | Рабочее место программиста, комната Хауди :3</h3>
+  <div class="video-info">
+    <span class="video-counter">
+      <span class="video-views">363k view</span>
+      <span class="video-date">24 nov 2020 </span>
+    </span>
+    <span class="video-channel">Хауди Хо</span>
+  </div>
+  <!-- /.video-info -->
+</div>
+<!-- /.video-card --></div>
+    <div class="swiper-slide"><div class="video-card">
+  <div class="video-thumb">
+    <img src="img/Хауди3.jpg" alt="ТОП 5 книг для НОВИЧКОВ ПРОГРАММИСТОВ" class="thumbmail">
+    <span class="video-duration">6:19</span>
+  </div>
+  <!-- /.video-thumb -->
+  <h3 class="video-title">ТОП 5 книг для НОВИЧКОВ ПРОГРАММИСТОВ</h3>
+  <div class="video-info">
+    <span class="video-counter">
+      <span class="video-views">180k view</span>
+      <span class="video-date">21 aug 2018 </span>
+    </span>
+    <span class="video-channel">Хауди Хо</span>
+  </div>
+  <!-- /.video-info -->
+</div>
+<!-- /.video-card --></div>
+    <div class="swiper-slide"><div class="video-card">
+  <div class="video-thumb">
+    <img src="img/Хауди4.jpg" alt="СКОЛЬКО ПЛАТИТ ЮТУБ ЗА 1 МИЛЛИОН ПРОСМОТРОВ В 2019?" class="thumbmail">
+    <span class="video-duration">8:44</span>
+  </div>
+  <!-- /.video-thumb -->
+  <h3 class="video-title">СКОЛЬКО ПЛАТИТ ЮТУБ ЗА 1 МИЛЛИОН ПРОСМОТРОВ В 2019?</h3>
+  <div class="video-info">
+    <span class="video-counter">
+      <span class="video-views">1,86m view</span>
+      <span class="video-date">1 aug 2019 </span>
+    </span>
+    <span class="video-channel">Хауди Хо</span>
+  </div>
+  <!-- /.video-info -->
+</div>
+<!-- /.video-card --></div>
+    <div class="swiper-slide"><div class="video-card">
+  <div class="video-thumb">
+    <img src="img/Хауди5.jpg" alt="10 ЛЕТ УЧУ ПРОГРАММИРОВАНИЕ | Чего я достиг?" class="thumbmail">
+    <span class="video-duration">13:04</span>
+  </div>
+  <!-- /.video-thumb -->
+  <h3 class="video-title">10 ЛЕТ УЧУ ПРОГРАММИРОВАНИЕ | Чего я достиг?</h3>
+  <div class="video-info">
+    <span class="video-counter">
+      <span class="video-views">380k view</span>
+      <span class="video-date">23 jun 2019 </span>
+    </span>
+    <span class="video-channel">Хауди Хо</span>
+  </div>
+  <!-- /.video-info -->
+</div>
+<!-- /.video-card --></div>
+  </div>
+  <!-- If we need navigation buttons -->
+</div>
+<!-- .swiper-container -->
+      </div>
+      <div class="channel">
+        <a href="#" class="channel-title-2">
+         <span class="channel-text-2">Recomended</span>
+        </a>
+        <!-- Slider main container -->
+<div class="slider-buttons">
+  <div class="channel-button channel-button-prev-2 ">
+    <svg class="icon icon-Left" width="28" height="28">
+    <use xlink:href="img/icons.svg#Left"></use>
+    </svg>
+  </div>
+  <div class=" channel-button channel-button-next-2">
+    <svg class="icon icon-Right" width="28" height="28">
+    <use xlink:href="img/icons.svg#Right"></use>
+    </svg>
+  </div>
+</div>
+  
+
+<div class="swiper-container channel-slider-2">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+<div class="video-card-2">
+  <div class="video-thumb-2">
+    <img src="img/r1.png" alt="Dude You Re Getting A Telescope" class="thumbmail-2">
+    <span class="video-duration">3:40</span>
+  </div>
+  <!-- /.video-thumb -->
+  <h3 class="video-title">Dude You Re Getting A Telescope</h3>
+  <div class="video-info">
+    <span class="video-counter">
+      <span class="video-views">34k view</span>
+      <span class="video-date">5 months ago </span>
+    </span>
+    <span class="video-channel-2">Gussie French</span>
+  </div>
+  <!-- /.video-info -->
+</div>
+<!-- /.video-card -->
+    </div>
+    <!--/.swiper-slide  -->
+    <div class="swiper-slide"><div class="video-card-2">
+  <div class="video-thumb-2">
+    <img src="img/r2.png" alt="Moon Gazing" class="thumbmail-2">
+    <span class="video-duration">2:12</span>
+  </div>
+  <!-- /.video-thumb -->
+  <h3 class="video-title">Moon Gazing</h3>
+  <div class="video-info">
+    <span class="video-counter">
+      <span class="video-views">54k view</span>
+      <span class="video-date">11 monyhs ago </span>
+    </span>
+    <span class="video-channel">Edvard Osbame</span>
+  </div>
+  <!-- /.video-info -->
+</div>
+<!-- /.video-card --></div>
+    <div class="swiper-slide"><div class="video-card-2">
+  <div class="video-thumb-2">
+    <img src="img/r3.png" alt="Moon Gazing" class="thumbmail-2">
+    <span class="video-duration">10:31</span>
+  </div>
+  <!-- /.video-thumb -->
+  <h3 class="video-title">Moon Gazing</h3>
+  <div class="video-info">
+    <span class="video-counter">
+      <span class="video-views">125k view</span>
+      <span class="video-date">4 months ago </span>
+    </span>
+    <span class="video-channel">Dolie Blain</span>
+  </div>
+  <!-- /.video-info -->
+</div>
+<!-- /.video-card --></div>
+  </div>
+  <!-- If we need navigation buttons -->
+</div>
+<!-- .swiper-container -->
+      </div>
+      <div class="channel">
+        <div class="channel-header"></div>
+        <a href="#" class="channel-title-3">
+         <img src="img/Food.png" alt="Food & Drink" width="50" height="50"class="channel-avatar">
+         <span class="channel-text">Food & Drink</span>
+           <span class="recomend">Recomended channel for you</span>
+           <div class="Subscribes">
+             <span class="Subscribe">
+         <svg class="icon icon-Subscribe" width="154" height="40">
+    <use xlink:href="img/icons.svg#Subscribe"></use>
+    </svg> 
+        </span>
+           </div>
+        </a>
+        <!-- Slider main container -->
+<div class="slider-buttons-3">
+  <div class="channel-button channel-button-prev-3 ">
+    <svg class="icon icon-Left" width="28" height="28">
+    <use xlink:href="img/icons.svg#Left"></use>
+    </svg>
+  </div>
+  <div class="channel-button channel-button-next-3 ">
+    <svg class="icon icon-Right" width="28" height="28">
+    <use xlink:href="img/icons.svg#Right"></use>
+    </svg>
+    </div>
+  </div>
+
+<div class="swiper-container channel-slider-3">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+<div class="video-card-3">
+  <div class="video-thumb-3">
+    <img src="img/1.png" alt="Astronomy or Astrolody" class="thumbmail">
+    <span class="video-duration">7:36</span>
+  </div>
+  <!-- /.video-thumb -->
+  <h3 class="video-title">Astronomy or Astrolody</h3>
+  <div class="video-info">
+    <span class="video-counter">
+      <span class="video-views">240k view</span>
+      <span class="video-date">4 months ago </span>
+    </span>
+    <span class="video-channel">Food & Drink</span>
+  </div>
+  <!-- /.video-info -->
+</div>
+<!-- /.video-card -->
+    </div>
+    <!--/.swiper-slide  -->
+    <div class="swiper-slide"><div class="video-card-3">
+  <div class="video-thumb-3">
+    <img src="img/2.png" alt="Advertising Outdoors" class="thumbmail">
+    <span class="video-duration">2:19</span>
+  </div>
+  <!-- /.video-thumb -->
+  <h3 class="video-title">Advertising Outdoors</h3>
+  <div class="video-info">
+    <span class="video-counter">
+      <span class="video-views">13k view</span>
+      <span class="video-date">15 days ago</span>
+    </span>
+    <span class="video-channel">Food & Drink</span>
+  </div>
+  <!-- /.video-info -->
+</div>
+<!-- /.video-card --></div>
+    <div class="swiper-slide"><div class="video-card-3">
+  <div class="video-thumb-3">
+    <img src="img/3.png" alt=" Radio Astronomy" class="thumbmail">
+    <span class="video-duration">9:05</span>
+  </div>
+  <!-- /.video-thumb -->
+  <h3 class="video-title"> Radio Astronomy</h3>
+  <div class="video-info">
+    <span class="video-counter">
+      <span class="video-views">1k view</span>
+      <span class="video-date">11 months ago </span>
+    </span>
+    <span class="video-channel">Food & Drink</span>
+  </div>
+  <!-- /.video-info -->
+</div>
+<!-- /.video-card --></div>
+    <div class="swiper-slide"><div class="video-card-3">
+  <div class="video-thumb-3">
+    <img src="img/4.png" alt="A Good Autoresponder" class="thumbmail">
+    <span class="video-duration">3:40</span>
+  </div>
+  <!-- /.video-thumb -->
+  <h3 class="video-title">A Good Autoresponder</h3>
+  <div class="video-info">
+    <span class="video-counter">
+      <span class="video-views">45kk view</span>
+      <span class="video-date">2 months ago </span>
+    </span>
+    <span class="video-channel">Food & Drink</span>
+  </div>
+  <!-- /.video-info -->
+</div>
+<!-- /.video-card --></div>
+    <div class="swiper-slide"><div class="video-card-3">
+  <div class="video-thumb-3">
+    <img src="img/5.png" alt="Baby Monitor Technology" class="thumbmail">
+    <span class="video-duration">1:56</span>
+  </div>
+  <!-- /.video-thumb -->
+  <h3 class="video-title">Baby Monitor Technology</h3>
+  <div class="video-info">
+    <span class="video-counter">
+      <span class="video-views">86k view</span>
+      <span class="video-date">7 days ago </span>
+    </span>
+    <span class="video-channel">Food & Drink</span>
+  </div>
+  <!-- /.video-info -->
+</div>
+<!-- /.video-card --></div>
+    <div class="swiper-slide"><div class="video-card-3">
+  <div class="video-thumb-3">
+    <img src="img/6.png" alt="Asteroids" class="thumbmail">
+    <span class="video-duration">4:15</span>
+  </div>
+  <!-- /.video-thumb -->
+  <h3 class="video-title">Asteroids</h3>
+  <div class="video-info">
+    <span class="video-counter">
+      <span class="video-views">123k view</span>
+      <span class="video-date">4 months ago</span>
+    </span>
+    <span class="video-channel">Food & Drink</span>
+  </div>
+  <!-- /.video-info -->
+</div>
+<!-- /.video-card --></div>
+  </div>
+  <!-- If we need navigation buttons -->
+</div>
+<!-- .swiper-container -->
+      </div>
+      <!-- /.channel -->
+      </main>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
