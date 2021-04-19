@@ -32,6 +32,7 @@ body {
   border: none;
   margin-right: 28px;
   cursor: pointer;
+  outline: none;
 }
 .menu-line {
   display: block;
@@ -195,6 +196,9 @@ body {
   font-size: 26px;
   line-height: 33px;
   margin-bottom: 30px;
+}
+.channel-button-prev,.channel-button-next,.channel-button-next-2,.channel-button-prev-2,.channel-button-prev-3,.channel-button-next-3{
+  outline: none;
 }
 .recomend {
   padding-left: 19px;
